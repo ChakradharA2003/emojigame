@@ -1,0 +1,51 @@
+/* Write your code here. */
+* {
+    font-family: 'Roboto';
+  }
+  .bg-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+  }
+  .display-emojis-list {
+    display: none;
+    margin-top: 0;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100%;
+  }
+  .dont-display-emojis-list {
+    display: none;
+  }
+
+  .start-btn {
+    font-size: x-large;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+  }
+
+  .timer-btn {
+    border: none;
+    padding: 100px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 100px;
+  }
+  
+  @media (max-width: 767px) {
+    .bg-container {
+      overflow: auto;
+    }
+  }
